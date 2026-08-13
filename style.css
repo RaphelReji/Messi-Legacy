@@ -3,8 +3,13 @@
 }
 
 body{
-    background-color: rgb(6, 6, 34);
+    background-image: url(images/stadium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(2, 2, 19);
+
 }
+
 
 .nav-background{
     background-color: rgb(13, 13, 54);
@@ -16,7 +21,7 @@ body{
     font-size: 25px;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 1000px;
+    margin-right: 700px;
     padding: 10px;
 }
 .web-name-span{
@@ -27,7 +32,8 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
     column-gap: 20px;
-    text-align: right;  
+   margin-left: auto;
+   margin-right: auto;
 }
 nav {
    
