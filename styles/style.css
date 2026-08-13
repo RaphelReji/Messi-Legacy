@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(6, 6, 34);
+}
+
+.nav-background{
+    background-color: azure;
+    width: 100%;
+}
+
+.web-name{
+    font-size: 30px;
+    display: inline-block;
+}
+.web-name-span{
+    color: gold;
+}
+.nav-links{
+    display: inline-block;
+    margin-left:1300px;
+}
+a{
+    margin-right: 20px;
+    text-decoration: underline;
+  
+}
