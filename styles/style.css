@@ -7,23 +7,55 @@ body{
 }
 
 .nav-background{
-    background-color: azure;
-    width: 100%;
+    background-color: rgb(13, 13, 54);
 }
 
 .web-name{
-    font-size: 30px;
+    color: white;
+    font-family: monospace,Arial, Helvetica, sans-serif;
+    font-size: 25px;
     display: inline-block;
+    vertical-align: middle;
+    margin-right: 1000px;
+    padding: 10px;
 }
 .web-name-span{
     color: gold;
 }
+
 .nav-links{
-    display: inline-block;
-    margin-left:1300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr;
+    column-gap: 20px;
+    text-align: right;  
 }
-a{
-    margin-right: 20px;
-    text-decoration: underline;
-  
+nav {
+   
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+     padding: 18px 30px;
+}
+a {
+   text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: monospace, sans-serif;
+    vertical-align: middle;
+    width: fit-content;
+}
+a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    
+    display: grid;
+    background: #ffaf02;
+    transition: 0.5s;
+    color: rgb(184, 9, 9);
+
+}
+a:hover::after{
+    width: 100%;
+
 }
