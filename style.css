@@ -70,14 +70,25 @@ a:hover::after{
 
 }
 
+.first-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 554px;
+    margin-top: 10px;
+}
+
 .messi-box{
     width: 500PX;
     margin-top: 250px;
+    height: fit-content;
     background-color:#131b3a;
     box-shadow: 10px 10px 40px black;
     color:white;
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: bottom;
 }
 .messi-box-btns{
     display: grid;
@@ -130,4 +141,53 @@ a:hover::after{
   padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 8px;
+}
+
+.messi1{
+    border-radius: 20px;
+    opacity: 0.7;
+    object-fit: contain;
+    object-position: center;
+
+}
+.messi-image1{
+    align-items:center;
+     width: fit-content;
+     margin-left: auto;
+     margin-right: auto;
+    margin-top: 50px;
+}
+.quick-facts{
+    margin-top: 250px;
+    width: 500px;
+    height: 290px;
+    background-color: #0b1330;
+     font-size: 16px;
+     font-family: monospace;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+}
+.quick-facts-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 15px;
+}
+.quick-facts-h1{
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.quick-facts-card{
+    height: 80px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #131b3a;
+    border-radius: 20px;
+    padding: 10px;
 }
