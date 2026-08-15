@@ -6,23 +6,27 @@ body{
     background-image: url(images/stadium.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: rgb(2, 2, 19);
+    background-color: #0b1330;
 
 }
 
 
 .nav-background{
-    background-color: rgb(13, 13, 54);
+    background-color: rgba(13, 13, 54, 0.616);
+    box-shadow:10px 10px 30px black;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    height: 50px;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 8PX;
 }
-
 .web-name{
     color: white;
     font-family: monospace,Arial, Helvetica, sans-serif;
     font-size: 25px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 700px;
-    padding: 10px;
+    margin-left: 25px;
+
 }
 .web-name-span{
     color: gold;
@@ -64,4 +68,66 @@ a::after{
 a:hover::after{
     width: 100%;
 
+}
+
+.messi-box{
+    width: 500PX;
+    margin-top: 250px;
+    background-color:#131b3a;
+    box-shadow: 10px 10px 40px black;
+    color:white;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.messi-box-btns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.messi-box-name{
+    color: #ffaf02;
+    font-family: cursive;
+    font-weight: bold;
+    font-size:40px;
+    text-align: center;
+    
+    
+}
+.messi-box-name-span{
+    font-size: 18px;
+    color: white;
+    font-family: monospace;
+   
+}
+.messi-box-text{
+    font-size: 16px;
+    font-family: monospace;
+    padding: 12px;
+}
+.messi-box-btn1{
+   background-color: #F2B705;
+   border: none;
+   color: black;
+   font-weight: bold;
+   margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 8px;
+
+}
+.messi-box-btn2{
+     background-color:rgba(0, 0, 0, 0.596);
+   border: none;
+   color: white;
+   font-weight: bold;
+   margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 8px;
 }
