@@ -7,9 +7,20 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-color: #0b1330;
+    background-attachment: fixed;
+    min-height: 100vh;
 
 }
-
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.55);
+    z-index: -1;
+}
 
 .nav-background{
     background-color: rgba(13, 13, 54, 0.616);
@@ -143,7 +154,7 @@ a:hover::after{
 
 .messi1{
     border-radius: 20px;
-    opacity: 0.7;
+    opacity: 0.6;
     object-fit: contain;
     object-position: center;
 
@@ -228,13 +239,15 @@ a:hover::after{
     font-family: cursive;
     font-weight:bolder;
     color: #0b1330;
-    font-size: 22px;
+    font-size: 18px;
+    text-decoration: underline 2px;
 }
 .white-box-text{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
     margin-top: 10px;
     line-height: 25px;
+    margin-left: 10px;
 }
 .white-box-btn{
     background-color: #0b1330;
@@ -246,4 +259,29 @@ a:hover::after{
     padding-bottom: 8px;
     border-radius:10px;
     margin-top: 10px;
+}
+.career-highlights{
+    width: 700PX;
+    background-color: #0b1330e8;
+     color: white;
+}
+.career-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.team-career{
+    width:200px;
+   
+    
+
+}
+.team-image img{
+    width:200px;
+    object-fit: cover;
+    object-position: center;
+ 
+}
+.team-name{
+    
 }
