@@ -73,8 +73,6 @@ a:hover::after{
 .first-card{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    height: 554px;
     margin-top: 10px;
 }
 
@@ -82,7 +80,7 @@ a:hover::after{
     width: 500PX;
     margin-top: 250px;
     height: fit-content;
-    background-color:#131b3a;
+    background-color:#1c264eb9;
     box-shadow: 10px 10px 40px black;
     color:white;
     border-radius: 20px;
@@ -161,7 +159,8 @@ a:hover::after{
     margin-top: 250px;
     width: 500px;
     height: 290px;
-    background-color: #0b1330;
+    background-color: #1c264eb9;
+    box-shadow:10px 10px 40px black;
      font-size: 16px;
      font-family: monospace;
     color:white;
@@ -187,7 +186,64 @@ a:hover::after{
     width: 160px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #131b3a;
+    background-color: #0c1742c4;
     border-radius: 20px;
     padding: 10px;
+    font-size: 20px;
+}
+.quick-facts-card span{
+    color: #F2B705;
+    font-size: 22PX;
+    font-weight: bold;
+}
+.quick-facts-card p{
+    font-size: 14px;
+}
+
+.second-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 30px;
+    margin-top:20px;
+}
+
+.white-box{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    border-radius:20px;
+    background-color: rgba(255, 255, 255, 0.877);
+    box-shadow:10px 10px 40px black;
+    padding: 10px;
+    margin-left:40px;
+    margin-top:50px;
+}
+
+.white-box img{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow:10px 10px 40px black;
+    margin-top: 40px;
+}
+.white-box-h1{
+    font-family: cursive;
+    font-weight:bolder;
+    color: #0b1330;
+    font-size: 22px;
+}
+.white-box-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.white-box-btn{
+    background-color: #0b1330;
+    border: none;
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius:10px;
+    margin-top: 10px;
 }
