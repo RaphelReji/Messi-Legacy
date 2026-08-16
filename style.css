@@ -351,6 +351,7 @@ a:hover::after{
     margin-left: 30px;
     margin-bottom: 20px;
     border-radius: 20px;
+    margin-top: 50px;
 }
 
 .messi123-img{
@@ -379,6 +380,7 @@ a:hover::after{
     height: min-content;
     border-radius: 20px;
     margin-right: 200px;
+    margin-bottom: 30px;
 }
 .moments-text{
     font-size: 20px;
@@ -397,4 +399,69 @@ a:hover::after{
 .moment-image img{
     width: 150px;
     border-radius: 20px;
+}
+.moment-btn{
+    background-color: #F2B705;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 230px;
+    margin-bottom: 10px;
+}
+
+
+.footer-dock{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    background-color: #0b1330;
+    width: 100%;
+    height: 100px;
+}
+
+.footer-logo{
+    width: 100px;
+}
+.footer-name{
+    display: grid;
+    grid-template-columns: 120px 1fr;
+}
+.footer-name-h1{
+    color: white;
+    font-family: cursive;
+    font-size:20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.footer-name-span{
+    color: #F2B705;
+}
+.footer-name-text{
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: 700;
+}
+
+.quick-links-h1{
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.quick-links-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    font-family: monospace;
+a{
+    font-size: 14px;
+    
+}
 }
