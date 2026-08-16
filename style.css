@@ -238,6 +238,8 @@ a:hover::after{
     border-radius: 20px;
     box-shadow:10px 10px 40px black;
     margin-top: 40px;
+    margin-left: 40px;
+   
 }
 .white-box-h1{
     font-family: cursive;
@@ -332,4 +334,67 @@ a:hover::after{
 }
 .inter-image{
     height: 270px;
+}
+
+.third-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+     column-gap:50px;
+    margin-top:20px;
+}
+.messi-messsage{
+    display: grid;
+    background-color: #0b1330;
+    grid-template-columns:  1fr 1fr;
+    width: min-content;
+    height: min-content;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.messi123-img{
+    width: 150px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.messi-messsage-text{
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 20px;
+    width: 200px;
+    color: white;
+    font-family: cursive;
+    padding: 10px;
+}
+.messi-messsage-text-gold{
+    color: #F2B705;
+}
+
+.moments-card{
+    background-color:#0b1330;
+    margin-top: 20px;
+    width: min-content;
+    height: min-content;
+    border-radius: 20px;
+    margin-right: 200px;
+}
+.moments-text{
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.moments-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: 10px;
+}
+.moment-image img{
+    width: 150px;
+    border-radius: 20px;
 }
