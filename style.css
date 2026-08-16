@@ -85,10 +85,12 @@ a:hover::after{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .messi-box{
-    width: 500PX;
+    
     margin-top: 250px;
     height: fit-content;
     background-color:#1c264eb9;
@@ -168,8 +170,7 @@ a:hover::after{
 }
 .quick-facts{
     margin-top: 250px;
-    width: 500px;
-    height: 290px;
+    
     background-color: #1c264eb9;
     box-shadow:10px 10px 40px black;
      font-size: 16px;
@@ -213,20 +214,23 @@ a:hover::after{
 
 .second-card{
     display: grid;
-    grid-template-columns: 1fr 2fr ;
+    grid-template-columns: 1fr 1fr ;
      column-gap:50px;
     margin-top:20px;
 }
 
 .white-box{
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    width: fit-content;
+    height: fit-content;
+    grid-template-columns: 1fr 1fr;
     border-radius:20px;
     background-color: rgba(255, 255, 255, 0.877);
     box-shadow:10px 10px 40px black;
     padding: 10px;
     margin-left:40px;
     margin-top:50px;
+   
 }
 
 .white-box img{
@@ -262,17 +266,23 @@ a:hover::after{
 }
 .career-highlights{
     width: min-content;
+    height: min-content;
     background-color: #0b1330e8;
      color: white;
+     border-radius: 20px;
+      padding: 10px;
+     box-shadow:10px 10px 40px black
 }
 .career-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
 }
 .career-head{
     text-align: center;
     font-size: 18px;
     font-family: cursive;
+    font-weight: bolder;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -282,19 +292,23 @@ a:hover::after{
    
 }
 .team-image img{
-    width:300PX;
-    object-fit: contain;
-    object-position: center;
+    width:200PX;
+    border-radius: 10px;
+    border: #F2B705;
+    border-style: groove;
  
 }
 .team-name{
     font-size: 20px;
+    font-weight: bold;
     text-align: center;
     margin-bottom: 10px;
 }
 .team-text{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-family: cursive;
+    font-size: 14px;
+    
     padding: 10px;
 }
 .team-btn{
@@ -307,12 +321,15 @@ a:hover::after{
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    margin-left:90px;
-    margin-bottom: 10px;
+    margin-left: 40px;
    
     
 }
 .team-image-paris{
-    width: 400px;
-    margin-bottom:80PX ;
+    height: 270px;
+    object-position: center;
+    object-fit:cover;
+}
+.inter-image{
+    height: 270px;
 }
