@@ -2,9 +2,9 @@ body{
     background-color: #0b1330;
 }
 .about-headline{
-    font-size: 50px;
+    font-size: 45px;
     font-family:'Courier New', Courier, monospace;
-    color:#ffaf02;
+    color: white;
     text-align: center;
     margin-top: 20px;
 
@@ -67,74 +67,33 @@ a::after{
 a:hover::after{
     width: 100%;
 }
-
-.about-firstcard{
-    color: white;
-    width: 75%;
-   text-align:center;
-   font-size: 18px;
-   line-height: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 2px rgba(255, 255, 255, 0.699);
-    border-radius: 20px;
-    padding: 10px;
-    margin-top: 30px;
-}
-.about-first-head{
+.career-head{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
     color: #ffaf02;
-    font-size: 30px;
+    text-align: center;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
-}
-.about-first-text{
-    font-family:cursive;
 }
 
-.about-secondcard{
-    width: 75%;
+.career-barsa-card{
+    width:60%;
+    background-color: rgba(105, 23, 116, 0.836);
+    border-radius: 20px;
     color: white;
-    text-align:center;
-   font-size: 18px;
-   line-height: 25px;
+    text-align: start;
     margin-left: auto;
     margin-right: auto;
-    border: solid 2px rgba(255, 255, 255, 0.699);
-    border-radius: 20px;
+    margin-top: 40px;
+}
+.career-barsa-name{
+    color: #ffaf02;
+    font-size: 28px;
+    text-align: start;
+    margin-left: 45px;
     padding: 10px;
-    margin-top:50px;
 }
-
-.about-second-head{
-     color: #ffaf02;
-    font-size: 30px;
+.career-barsa-texts{
+    margin-left: 40px;
+    font-family: cursive;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
-}
-.about-second-texts{
-    font-family:cursive;
-    text-align: center;
-}
-.about-thirdcard{
-     width: 75%;
-    color: white;
-    text-align:center;
-   font-size: 18px;
-   line-height: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 2px rgba(255, 255, 255, 0.699);
-    border-radius: 20px;
-    padding: 10px;
-    margin-top:50px;
-}
-.about-third-head{
-     color: #ffaf02;
-    font-size: 30px;
-    padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
-}
-.about-third-text{
-     font-family:cursive;
-    text-align: center;
 }
