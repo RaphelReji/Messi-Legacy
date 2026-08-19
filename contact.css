@@ -53,19 +53,8 @@ a {
     vertical-align: middle;
     width: fit-content;
 }
-a::after{
-    content: "";
-    width: 0%;
-    height: 2px;
-    
-    display: grid;
-    background: #ffaf02;
-    transition: 0.5s;
-    color: rgb(184, 9, 9);
-
-}
-a:hover::after{
-    width: 100%;
+a:hover{
+    color: #ffaf02;
 }
 .career-head{
     font-size: 50px;
@@ -73,4 +62,34 @@ a:hover::after{
     color: #ffaf02;
     text-align: center;
     padding: 10px;
+}
+
+.contact-msg{
+    width: 60%;
+    font-size: 20px;
+    color: white;
+    border:solid 2px #ffaf02;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit-card{
+    width: 30%;
+    border: 2px solid beige;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feedback{
+    display: block;
+    border:2px solid #ffaf02;
+
+}
+.name{
+   
+    border:2px solid #ffaf02;
+}
+.email{
+     border:2px solid #ffaf02;
+
 }
