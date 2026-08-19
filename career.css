@@ -97,3 +97,73 @@ a:hover::after{
     font-family: cursive;
     padding: 10px;
 }
+
+.career-psg-card{
+    width:60%;
+    background-color: rgba(16, 22, 107, 0.836);
+    border-radius: 20px;
+    color: white;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.career-psg-name{
+    color: #ffaf02;
+    font-size: 28px;
+    text-align: start;
+    margin-left: 45px;
+    padding: 10px;
+}
+.career-psg-texts{
+    margin-left: 40px;
+    font-family: cursive;
+    padding: 10px;
+}
+
+.career-inter-card{
+    width:60%;
+    background-color: rgba(231, 58, 208, 0.836);
+    border-radius: 20px;
+    color: white;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.career-inter-name{
+    color: #ffaf02;
+    font-size: 28px;
+    text-align: start;
+    margin-left: 45px;
+    padding: 10px;
+}
+.career-inter-texts{
+    margin-left: 40px;
+    font-family: cursive;
+    padding: 10px;
+}
+
+
+.career-argentina-card{
+    width:60%;
+    background-color: rgba(14, 202, 235, 0.836);
+    border-radius: 20px;
+    color: white;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.career-argentina-name{
+    color: #ffaf02;
+    font-size: 28px;
+    text-align: start;
+    margin-left: 45px;
+    padding: 10px;
+}
+.career-argentina-texts{
+    margin-left: 40px;
+    font-family: cursive;
+    padding: 10px;
+}
