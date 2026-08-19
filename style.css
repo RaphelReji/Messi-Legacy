@@ -65,20 +65,8 @@ a {
     vertical-align: middle;
     width: fit-content;
 }
-a::after{
-    content: "";
-    width: 0%;
-    height: 2px;
-    
-    display: grid;
-    background: #ffaf02;
-    transition: 0.5s;
-    color: rgb(184, 9, 9);
-
-}
-a:hover::after{
-    width: 100%;
-
+a:hover{
+    color: #F2B705;
 }
 
 .first-card{

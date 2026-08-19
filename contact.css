@@ -75,21 +75,47 @@ a:hover{
     margin-right: auto;
 }
 .submit-card{
-    width: 30%;
+    width: 20%;
     border: 2px solid beige;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 80px;
 }
 .feedback{
     display: block;
     border:2px solid #ffaf02;
+    margin-top: 15px;
+    width:350px;
+    height: 30px;
+    border-radius: 10px;
 
 }
 .name{
    
     border:2px solid #ffaf02;
+    width: 160px;
+    height: 25px;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 .email{
      border:2px solid #ffaf02;
-
+      width: 160px;
+    height: 25px;
+    border-radius: 10px;
+}
+.btn-submit{
+    background-color: #ffaf02;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 130px;
+    font-weight:bold ;
+    
 }
