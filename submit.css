@@ -15,8 +15,12 @@ body{
     font-weight: bolder;
     font-size: 25px;
     text-align: center;
-
+    margin-top: 40px;
+    transition: 0.5s;
 }
 .goback:hover{
     color: goldenrod;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 20px;
 }
