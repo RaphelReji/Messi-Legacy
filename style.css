@@ -88,6 +88,10 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     vertical-align: bottom;
+    transition: 0.3s;
+}
+.messi-box:hover{
+    transform: scale(1.06);
 }
 .messi-box-btns{
     display: grid;

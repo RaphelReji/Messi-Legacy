@@ -75,36 +75,48 @@ a:hover{
     margin-right: auto;
 }
 .submit-card{
-    width: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min-content;
     border: 2px solid beige;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
     border-radius: 20px;
     margin-top: 80px;
+    align-items: center;
 }
-.feedback{
-    display: block;
+.submit-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    column-gap: 10px;
+}
+#feedback{
+  
     border:2px solid #ffaf02;
     margin-top: 15px;
-    width:350px;
+    width:max-content;
     height: 30px;
     border-radius: 10px;
+    margin-left: 80px;
+    vertical-align: top;
 
 }
-.name{
-   
+#name{
     border:2px solid #ffaf02;
-    width: 160px;
+    width: max-content;
     height: 25px;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-left: 80px;
+    
 }
-.email{
+#email{
+    display: inline-block;
      border:2px solid #ffaf02;
-      width: 160px;
+      width: max-content;
     height: 25px;
     border-radius: 10px;
+    margin-right: 80px;
 }
 .btn-submit{
     background-color: #ffaf02;
@@ -115,7 +127,7 @@ a:hover{
     padding-top: 10px;
     border-radius: 10px;
     margin-top: 10px;
-    margin-left: 130px;
+    margin-left: 50px;
     font-weight:bold ;
     
 }
