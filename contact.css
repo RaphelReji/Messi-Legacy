@@ -129,5 +129,10 @@ a:hover{
     margin-top: 10px;
     margin-left: 50px;
     font-weight:bold ;
-    
+   transition: .3s;
+}
+.btn-submit:hover{
+    background-color: black;
+    color: white;
+
 }

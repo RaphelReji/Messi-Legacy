@@ -131,7 +131,12 @@ a:hover{
   padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 8px;
+  transition: 0.3s;
 
+}
+.messi-box-btn1:hover{
+    border-radius: 20px;
+    background-color: white;
 }
 .messi-box-btn2{
      background-color:rgba(0, 0, 0, 0.596);
@@ -144,6 +149,12 @@ a:hover{
   padding-bottom: 10px;
   padding-top: 10px;
   border-radius: 8px;
+  transition: 0.3s;
+}
+.messi-box-btn2:hover{
+    border-radius: 50px;
+    background-color: black;
+    transform: translatex(10px);
 }
 
 .messi1{
@@ -151,7 +162,12 @@ a:hover{
     opacity: 0.6;
     object-fit: contain;
     object-position: center;
-
+    transition: 0.3s;
+}
+.messi1:hover{
+    opacity: 1;
+    border-radius: 250px;
+    transform:scale(1.04)
 }
 .messi-image1{
     align-items:center;
@@ -161,8 +177,7 @@ a:hover{
     margin-top: 50px;
 }
 .quick-facts{
-    margin-top: 250px;
-    
+    margin-top: 250px; 
     background-color: #1c264eb9;
     box-shadow:10px 10px 40px black;
      font-size: 16px;
@@ -170,6 +185,11 @@ a:hover{
     color:white;
     text-align: center;
     border-radius: 20px;
+    transition: 0.3s;
+}
+.quick-facts:hover{
+    transform: scale(1.05);
+    background-color: #0b1020b9;
 }
 .quick-facts-grid{
     display: grid;
@@ -183,6 +203,10 @@ a:hover{
     font-weight: bold;
     font-size: 22px;
     margin-bottom: 15px;
+    transition: 0.3s;
+}
+.quick-facts-h1:hover{
+    color: #F2B705;
 }
 
 .quick-facts-card{
@@ -194,6 +218,11 @@ a:hover{
     border-radius: 20px;
     padding: 10px;
     font-size: 20px;
+    transition: 0.3s;
+}
+.quick-facts-card:hover{
+    background-color: #1b285fc4;
+    transform: scale(1.03);
 }
 .quick-facts-card span{
     color: #F2B705;
@@ -222,7 +251,10 @@ a:hover{
     padding: 10px;
     margin-left:40px;
     margin-top:50px;
-   
+    transition: 0.3s;
+}
+.white-box:hover{
+   transform: scale(1.04);
 }
 
 .white-box img{
@@ -257,6 +289,13 @@ a:hover{
     padding-bottom: 8px;
     border-radius:10px;
     margin-top: 10px;
+    transition: 0.3s;
+}
+.white-box-btn:hover{
+    border-radius: 20px;
+    background-color: #ffaf02;
+    color: black;
+    font-weight: bolder;
 }
 .career-highlights{
     width: min-content;
@@ -283,7 +322,10 @@ a:hover{
 
 .team-career{
     width:min-content;
-   
+    transition: 0.3s;
+}
+.team-career:hover{
+    transform: scale(1.04);
 }
 .team-image img{
     width:200PX;
@@ -316,8 +358,12 @@ a:hover{
     padding-bottom: 10px;
     border-radius: 10px;
     margin-left: 40px;
-   
-    
+}
+.team-btn:hover{
+    background-color: rgb(240, 67, 67);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .team-image-paris{
     height: 270px;
@@ -344,6 +390,11 @@ a:hover{
     margin-bottom: 20px;
     border-radius: 20px;
     margin-top: 50px;
+    transition: 0.3s;
+}
+.messi-messsage:hover{
+    transform: scale(1.05);
+    border: solid 2px white;
 }
 
 .messi123-img{
@@ -373,6 +424,10 @@ a:hover{
     border-radius: 20px;
     margin-right: 200px;
     margin-bottom: 30px;
+    transition: 0.3s;
+}
+.moments-card:hover{
+    transform: scale(1.02);
 }
 .moments-text{
     font-size: 20px;
@@ -391,6 +446,10 @@ a:hover{
 .moment-image img{
     width: 150px;
     border-radius: 20px;
+    transition: 0.3s;
+}
+.moment-image img:hover{
+    transform: scale(1.05);
 }
 .moment-btn{
     background-color: #F2B705;
@@ -405,6 +464,11 @@ a:hover{
     border: none;
     margin-left: 230px;
     margin-bottom: 10px;
+    transition: 0.3s;
+}
+.moment-btn:hover{
+    background-color: white;
+    transform: scale(1.04);
 }
 
 
