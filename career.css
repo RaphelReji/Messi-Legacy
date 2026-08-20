@@ -63,16 +63,25 @@ a:hover{
     text-align: center;
     padding: 10px;
 }
+.career-head:hover{
+    color: blue;
+}
 
 .career-barsa-card{
     width:60%;
-    background-color: rgba(105, 23, 116, 0.836);
+    background-color: white;
     border-radius: 20px;
-    color: white;
+    color: black;
     text-align: start;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    transition: 0.3s;
+}
+.career-barsa-card:hover{
+    background-color: rgb(59, 3, 122);
+    color: white;
+    transform: scale(1.04);
 }
 .career-barsa-name{
     color: #ffaf02;
@@ -89,13 +98,19 @@ a:hover{
 
 .career-psg-card{
     width:60%;
-    background-color: rgba(16, 22, 107, 0.836);
+    background-color:white;
     border-radius: 20px;
-    color: white;
+    color: black;
     text-align: start;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    transition: 0.3s;
+}
+.career-psg-card:hover{
+    background-color: rgb(16, 12, 54);
+    color: white;
+    transform: scale(1.04);
 }
 .career-psg-name{
     color: #ffaf02;
@@ -112,13 +127,19 @@ a:hover{
 
 .career-inter-card{
     width:60%;
-    background-color: rgba(231, 58, 208, 0.836);
+    background-color: white;
     border-radius: 20px;
-    color: white;
+    color:black;
     text-align: start;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    transition: 0.3s;
+}
+.career-inter-card:hover{
+    background-color: rgb(230, 20, 202);
+    color: white;
+    transform: scale(1.04);
 }
 .career-inter-name{
     color: #ffaf02;
@@ -136,13 +157,19 @@ a:hover{
 
 .career-argentina-card{
     width:60%;
-    background-color: rgba(14, 202, 235, 0.836);
+    background-color:white;
     border-radius: 20px;
-    color: white;
+    color: black;
     text-align: start;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    transition: 0.3s;
+}
+.career-argentina-card:hover{
+    background-color: rgb(64, 198, 252);
+    color: black;
+    transform: scale(1.04);
 }
 .career-argentina-name{
     color: #ffaf02;

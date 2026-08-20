@@ -7,7 +7,9 @@ body{
     color:#ffaf02;
     text-align: center;
     margin-top: 20px;
-
+}
+.about-headline:hover{
+    color: rgb(172, 5, 5);
 }
 
 .nav-background{
@@ -69,6 +71,10 @@ a:hover{
     border-radius: 20px;
     padding: 10px;
     margin-top: 30px;
+    transition: 0.3s;
+}
+.about-firstcard:hover{
+    transform: scale(1.04);
 }
 .about-first-head{
     color: #ffaf02;
@@ -92,6 +98,10 @@ a:hover{
     border-radius: 20px;
     padding: 10px;
     margin-top:50px;
+    transition: 0.3s;
+}
+.about-secondcard:hover{
+    transform: scale(1.04);
 }
 
 .about-second-head{
@@ -116,6 +126,10 @@ a:hover{
     border-radius: 20px;
     padding: 10px;
     margin-top:50px;
+    transition: 0.3s;
+}
+.about-thirdcard:hover{
+    transform: scale(1.04);
 }
 .about-third-head{
      color: #ffaf02;
