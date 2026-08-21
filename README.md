@@ -1,6 +1,8 @@
-# Project Name
+# Messi-Legacy
 
-A short description of what the project is and what it does.
+This is my one of my best project made with html and css from a 2 month experience.
+It is a simple website called Messi-legacy. Its about LIONEL MESSI and his career.
+It is a inspirational page for youngster who dreaming to be like him.His entire career in one web
 
 ## Live Demo
 
@@ -8,31 +10,26 @@ A short description of what the project is and what it does.
 
 ## Screenshots
 
-![Project Screenshot](screenshot.png)
+![home](images/MESSIHOME.png)
+![about](images/MESSIABOUT.png)
+![career](images/MESSICAREER.png)
+![achivements](images/MESSIACIEVEMENTS.png)
+![contact](images/MESSICONTACT.png)
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
-- Feature 4
-- Feature 5
+- Almost all information about messi
+- Animation in almost every card
+- Maintained a theme
+- feedback option(but fake)
+- clean format
 
 ## Built With
 
 - HTML
 - CSS
-- JavaScript
-- Other tools or libraries used
 
-## Getting Started
-
-### Requirements
-
-- A web browser
-- VS Code or another code editor
-
-### Installation
+## Installation to run locally
 
 1. Clone this repository:
 
@@ -42,37 +39,23 @@ git clone YOUR-REPOSITORY-LINK
 
 3. Open `index.html` in your browser.
 
-## How It Works
+### How It Works
 
-Explain how the project works.
-
-Describe the main parts of the project and how they work together.
-
-## Project Structure
-
-project-name/
-├── index.html
-├── style.css
-├── script.js
-├── images/
-└── README.md
+You can explore the messi's career through the webpage with a theme
 
 ## Design
 
-Explain the design of the project, including the theme, layout, colors, fonts, animations, and other design choices.
+I designed it with a theme of navy and gold,used white and navy in almost every cards and used courier,monospace as fonts
 
 ## Challenges
 
-Explain some problems you faced while making the project and how you solved them.
+my main challange is that with images.one is big one is small but i manage it.
 
 ## What I Learned
 
 - Lot of html,css concepts as a beginner
 - learned to make the div and grids
 
-## Future Improvements
-
-- Responsive with js
 ## Credits
 
 - Images and assets: copyright belong to the rightful owner
