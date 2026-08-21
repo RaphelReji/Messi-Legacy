@@ -32,6 +32,9 @@ body::before{
     border-radius: 20px;
     margin-top: 8PX;
 }
+.nav-background:hover{
+    background-color: #0b301448;
+}
 .web-name{
     color: white;
     font-family: monospace,Arial, Helvetica, sans-serif;
@@ -166,7 +169,7 @@ a:hover{
 }
 .messi1:hover{
     opacity: 1;
-    border-radius: 250px;
+    border-radius: 25px;
     transform:scale(1.04)
 }
 .messi-image1{
@@ -189,7 +192,7 @@ a:hover{
 }
 .quick-facts:hover{
     transform: scale(1.05);
-    background-color: #0b1020b9;
+    background-color: #0b133075;
 }
 .quick-facts-grid{
     display: grid;
@@ -523,6 +526,16 @@ a{
     font-size: 16px;
     
 }
+}
+.footer-logos{
+    display: grid;
+    grid-template-columns: 48px 48px 48px 48px;
+    margin-left: 140px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.footer-logos img:hover{
+    transform: scale(1.04);
 }
 .footer-message{
     display: grid;
