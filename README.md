@@ -33,7 +33,7 @@ It is a inspirational page for youngster who dreaming to be like him.His entire 
 
 1. Clone this repository:
 
-git clone
+git clone https://github.com/RaphelReji/Messi-Legacy.git
 
 2. Open the project folder in VS Code.
 
