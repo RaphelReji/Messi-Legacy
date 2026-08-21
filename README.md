@@ -2,7 +2,7 @@
 
 This is my one of my best project made with html and css from a 2 month experience.
 It is a simple website called Messi-legacy. Its about LIONEL MESSI and his career.
-It is a inspirational page for youngster who dreaming to be like him.His entire career in one web
+It is a inspirational page for youngster who dreaming to be like him.His entire career in one web.This is an unofficial page just to encourage and for inspiration.
 
 ## Live Demo
 
@@ -33,7 +33,7 @@ It is a inspirational page for youngster who dreaming to be like him.His entire 
 
 1. Clone this repository:
 
-git clone YOUR-REPOSITORY-LINK
+git clone
 
 2. Open the project folder in VS Code.
 
@@ -41,15 +41,15 @@ git clone YOUR-REPOSITORY-LINK
 
 ### How It Works
 
-You can explore the messi's career through the webpage with a theme
+You can explore the messi's career through the webpage with a blended theme of navy and gold etc...
 
 ## Design
 
-I designed it with a theme of navy and gold,used white and navy in almost every cards and used courier,monospace as fonts
+I designed it with a theme of navy and gold,used white and navy in almost every cards and used courier,monospace as fonts.
 
 ## Challenges
 
-my main challange is that with images.one is big one is small but i manage it.
+my main challange is that with images.one is big one is small but i manage it to solve.
 
 ## What I Learned
 
@@ -59,7 +59,7 @@ my main challange is that with images.one is big one is small but i manage it.
 ## Credits
 
 - Images and assets: copyright belong to the rightful owner
-- Libraries: used claude for taking the information about Messi
+- content: used claude for taking the information about Messi(Like the goals teams etc..)
 
 ## License
 
