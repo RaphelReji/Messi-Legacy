@@ -1,8 +1,11 @@
 # Messi-Legacy
 
-This is my one of my best project made with html and css from a 2 month experience.
-It is a simple website called Messi-legacy. Its about LIONEL MESSI and his career.
-It is a inspirational page for youngster who dreaming to be like him.His entire career in one web.This is an unofficial page just to encourage and for inspiration.
+This is one of my best projects, made with HTML and CSS from two months of experience.
+
+It is a simple website called Messi-Legacy. It's about LIONEL MESSI and his career.
+
+It is an inspirational page for youngsters who dream of being like him. His entire career is in one website. This is an unofficial page just to encourage and inspire.
+
 
 ## Live Demo
 
@@ -33,7 +36,9 @@ It is a inspirational page for youngster who dreaming to be like him.His entire 
 
 1. Clone this repository:
 
-git clone https://github.com/RaphelReji/Messi-Legacy.git
+   ```bash
+   git clone https://github.com/RaphelReji/Messi-Legacy.git
+   ```
 
 2. Open the project folder in VS Code.
 
@@ -49,7 +54,8 @@ I designed it with a theme of navy and gold,used white and navy in almost every 
 
 ## Challenges
 
-my main challange is that with images.one is big one is small but i manage it to solve.
+My main challenge was working with images. Some were big and some were small, but I managed to solve the issue.
+
 
 ## What I Learned
 
@@ -58,9 +64,10 @@ my main challange is that with images.one is big one is small but i manage it to
 
 ## Credits
 
-- Images and assets: copyright belong to the rightful owner
-- content: used claude for taking the information about Messi(Like the goals teams etc..)
+* Images and assets: Copyright belongs to their rightful owners.
+* Content: Used Claude to get information about Messi (like his goals, teams, etc.).
+
 
 ## License
 
-This project was created for Hack Club Macondo under MIT-do what ever with it.
+This project was created for Hack Club under MIT-do what ever with it.
